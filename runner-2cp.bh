@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+echo $N
+
+for D in {1..1}
+do
+  for alp in {9..9}
+  do
+    for nSourc in {1..1}
+    do
+      for samp in {4..10}
+      do
+         # the next line is responsable for the parallel processing
+         gcc mc-ran2-2cp-metap-ring-time-ns-2.c  -o p-2cp  -O3 -lm
+
+         ./p-2cp $D $alp $nSourc $samp &
+
+         sleep 1
+      done
+    done
+  done
+done
+
