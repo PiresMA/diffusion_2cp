@@ -2,12 +2,10 @@
 *** Main program to the Monte Carlo Simulation of the model presented in paper
 *** Optimal diffusion in ecological dynamics  with Allee effect in a metapopulation
 ***
-*** Specifically this code yields the results shown in Fig.3-a, but with small
+*** Specifically this code yields the results shown in Fig.1, but with small
 *** modifications all the other results presented in our paper can be obtained.
 *** Do not hesitate to contact me: piresma@cbpf.br  or pires.ma.fisica@gmail.com
 ***/
-
-// NICE: http://wakingup.libsyn.com/145-the-information-war
 
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -18,7 +16,7 @@
 #include "ran2_new.h"
 
 
-int simu=4;
+int simu=1;
 
 #define nsubp 10
 #define sizesubpop 100000
