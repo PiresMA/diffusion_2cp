@@ -1,4 +1,4 @@
-/** Authors: M.A.Pires and Queiros
+/** Authors: M.A.Pires, N. Crokidades and SMD Queiros
 *** Main program to the Monte Carlo Simulation of the model presented in paper
 *** Optimal diffusion in ecological dynamics  with Allee effect in a metapopulation
 ***
