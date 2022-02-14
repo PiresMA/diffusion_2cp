@@ -210,7 +210,6 @@ for(indexD in 1:length(vecD) )
 
 if(exportFigure==TRUE){
     dev.off()
-    #setwd("C:/Users/Asus/Dropbox/proj-windus/C-R-allee-metap/c-allee-metapop-onlyAmove-1-2-3/allee-simu2/chosen/")
 }
 #####*********************** Figure: end ***************************###
 
